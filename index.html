@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أدوات الإختراق</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #191919;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .game-item {
+            width: calc(33% - 20px);
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .game-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .game-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .game-item h2 {
+            margin: 0;
+            padding: 15px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        .game-item p {
+            padding: 15px;
+            color: #666;
+        }
+        .game-item a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 0 0 8px 8px;
+        }
+        .game-item a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>معرض الأدوات</h1>
+        <ul class="game-list">
+            </li>
+            <li class="game-item">
+                <img src="proxy-image.jpg" alt="لعبة 2">
+                <h2>أداة Gerker بالإنجليزي</h2>
+                <p>أداة خاصة لتصنيع اليوزرات للمنصات الإجتماعية او الإختراق</p>
+                <a href="https://github.com/AhmedXCX722/Gerker-en" target="_blank">الذهاب</a>
+            </li>
+            <li class="game-item">
+                <img src="proxy-image.jpg" alt="لعبة 2">
+                <h2>أداة Gerker بالعربي</h2>
+                <p>أداة خاصة لتصنيع اليوزرات للمنصات الإجتماعية او الإختراق</p>
+                <a href="https://github.com/AhmedXCX722/Gerker-ar" target="_blank">الذهاب</a>
+            </li>
+            <!-- يمكنك إضافة المزيد من الألعاب هنا -->
+        </ul>
+    </div>
+</body>
+</html>
